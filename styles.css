@@ -1,3 +1,52 @@
-body {
-    background-color: ghostwhite;
+/* TIPOGRAFIA H1 BIENVENIDO A QUIZ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
+/* TIPOGRAFIA ENLACE FORMULARIO */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* BODY */
+
+body{
+    background-color: #15C29F;
 }
+
+/* H1 BIENVENIDO A QUIZ */
+
+.divH1Welcome{
+    text-align: center;
+}
+
+.h1Welcome{
+    color: #C95849;
+    font-family: 'Nerko One';
+    font-size: 100px;
+}
+
+/* ENLACE FORMULARIO */
+
+.divNavANavegador{
+    text-align: center;
+}
+
+.navANavegador>a{
+    color: #06755F;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
+/* ENLACE VOLVER */
+
+.divNavAVolver{
+    text-align: left;
+}
+
+.navAVolver > a{
+    color: #06755F;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+
